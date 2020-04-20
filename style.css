@@ -1,0 +1,161 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+/*-------Utility classes------*/
+.left {text-align: left;}
+.right {text-align:right;}
+.center {text-align: center;}
+.padded {padding:5%;}
+.no-padding{padding:0}
+.bg-image{
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(200,200,205);
+}
+.button{
+  text-decoration:none;
+  color: inherit;
+  border: solid 2px;
+  padding: 1rem 3rem;
+  display: inline-block;
+}
+
+
+/*-------Universal styles------*/
+body{
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(60 60 65);
+}
+h2,h3 {
+  font-weight:900;
+  margin-bottom: 1rem;
+}
+h2{
+  font-size: 2.8rem;
+}
+p {
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+/*-------Header-------*/
+
+header{
+    padding: 1% 5%;}
+
+header a{
+    text-decoration: none;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    padding: .5rem;
+    color: inherit;
+    border-bottom: 1px solid white;
+    margin-left: 1rem;
+}
+
+header a:hover{
+    border-color: rgb(60 60 65);}
+
+header h1{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+    
+/*--------banner-------*/
+.bannerimg {
+    background-image: url('palm.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(200,200,205);
+    /*padding: 7%;*/
+    height: 90vh;
+
+}
+  
+.banner h3 {
+    font-size: 75px;
+    opacity: .6;
+}
+
+.banner h2{
+    font-size: 28px; 
+    opacity:.6;
+}
+
+.banner{
+    color: white;
+    letter-spacing: 1.8px;
+}
+
+
+/*---------image rows-------*/
+
+.plant-1 {
+    background-image: url('plant-1.jpg');
+    padding: 14%;}
+
+
+.plant-2 {
+    background-image: url('plant-2.jpg');
+    padding: 14%;}
+    
+   
+
+/*----------CTA--------*/
+
+.cta{
+    background-color: rgb(200,200,205)}
+.button:hover{
+    color: white;
+    border-color: white;}
+
+
+/*-------Footer--------*/
+footer {
+    background-color: rgb(200,200,205);   
+}
+
+footer a{
+    text-decoration: none;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    padding: 1rem;
+    color: inherit;
+    border-bottom: 1px solid rgb(200,200,205);
+    margin-left: 1rem;
+    font-size: 2.5rem;
+}
+
+       
+footer a:hover{
+    border-color: rgb(60 60 65);}
+
+/*------Media Queries----*/
+
+@media (max-width:768px) {
+    
+    .bg-image{
+        height: 300px}
+    
+    .hide{
+        display: none}
+    h2{
+        font-size: 1.8 rem;
+        font-weight: 600;}
+    h3{
+        font-size: 3rem;
+        font-weight: 700;}
+    p {
+        font-size: 1.2rem;}
+     
+     
+}
+    
+    
+    
+
+
